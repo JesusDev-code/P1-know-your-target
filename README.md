@@ -2,7 +2,7 @@
 
 Proyecto 1 de Hacking Ético (Curso de Especialización en Ciberseguridad, IES Rafael Alberti, 2026-27).
 
-- **Alumno:** Jesús
+- **Alumno:** Jesús Alfonso Pedreño Domínguez
 - **Objetivo:** Stripchat · programa de bug bounty público en HackerOne: https://hackerone.com/stripchat
 - **Entrega actual:** Parte 1 · mapa de superficie de ataque (solo técnicas pasivas)
 
