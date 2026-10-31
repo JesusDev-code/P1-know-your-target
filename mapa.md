@@ -39,7 +39,7 @@ parecen dominios que imitan a la marca (10-31 17:30).
 | emt-fallback.stripchat.com | Cloudflare | Sí | Respaldo de envío de correo | 10-31 16:39 |
 | link.inbox.stripchat.com | CNAME a MoEngage (CloudFront, 18.154.48.x) | Sí | Enlaces de marketing, servicio externo | 10-31 16:39 |
 | staging.stripchat.com | No resuelve | Sí | Preproducción (nombre antiguo) | 10-29 20:22; 10-31 16:39 |
-| mta36-x.stripchat.com | 86.62.36.x (Intrahost, NL) | No | Servidores de correo (Postal) | 10-31 16:08 |
+| mta36-115 y otros mta* | 86.62.36.x (Intrahost, NL) | No | Servidores de correo (Postal) | 10-31 16:08 |
 | mta194-11/12/72.auth.stripchat.com | 185.196.194.11/12/72 (AS39572) | No | Servidores de correo | 10-31 16:46 |
 | support, wiki, ext, pxl | — | No | Soporte, wiki, extensiones, píxel | 10-29 20:00 |
 

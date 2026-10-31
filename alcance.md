@@ -27,5 +27,5 @@ El dominio raíz `stripchat.com` no aparece como activo propio, pero el programa
 - **¿Permite herramientas automáticas?** Sí, hasta 100 peticiones por segundo y nunca durante el mantenimiento. En `my.club`, solo de 7:00 a 15:00 UTC.
 - **¿Límite de peticiones?** 100 por segundo.
 - **¿Prohíbe contactar con empleados?** Sí. Toda comunicación va por HackerOne y está prohibida la ingeniería social contra empleados, soporte y contratas.
-- **¿Requisito de identificación?** Sí. Toda petición HTTP debe llevar la cabecera `HackerOne: <usuario>` (en `my.club`, `X-HackerOne-Research: <usuario>`). Las dos peticiones a `robots.txt` y `security.txt` del 2026-10-29 se hicieron sin ella (ver el cuaderno). A partir de ahí, cualquier petición la lleva.
+- **¿Requisito de identificación?** Sí. Toda petición HTTP debe llevar la cabecera `HackerOne: <usuario>` (en `my.club`, `X-HackerOne-Research: <usuario>`). Las dos peticiones a `robots.txt` y `security.txt` del 2026-10-29 se hicieron sin ella (ver el cuaderno). Se repitieron el 2026-10-31 a las 17:49 con la cabecera `HackerOne: thirion` y el resultado fue el mismo.
 - **Otras:** solo se puede probar con cuentas propias, está prohibido acceder a datos de usuarios y no se pueden publicar vulnerabilidades fuera de HackerOne. En este proyecto no se crean cuentas y solo se usan técnicas pasivas.

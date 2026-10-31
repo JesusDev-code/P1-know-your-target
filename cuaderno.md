@@ -13,7 +13,8 @@ siguiente: registros DNS con dig
 
 ```
 2026-10-29 19:22 · objetivo: stripchat.com (in scope)
-$ dig +short A|NS|MX|TXT stripchat.com ; dig +short TXT _dmarc.stripchat.com
+$ dig +short A stripchat.com ; dig +short NS stripchat.com ; dig +short MX stripchat.com
+$ dig +short TXT stripchat.com ; dig +short TXT _dmarc.stripchat.com
 -> A 104.17.117.12 y 104.17.118.12 (rango de Cloudflare); NS Cloudflare; MX de Google
 -> TXT: SPF -all con redirect a spf.stripchat.com; 3 google-site-verification; mailru-verification
 -> DMARC p=quarantine, informes a postmaster@stripchat.com
@@ -254,4 +255,14 @@ $ dig +short A stage.stripchat.com ; dig +short A maxxcams.com.stripchat.com ; d
    alcance (no es mta*); la IP es vecina de las excluidas
 -> segundo servidor en alcance sin proxy, y además es preproducción
 siguiente: actualizar mapa.md
+```
+
+```
+2026-10-31 17:49 · objetivo: stripchat.com (in scope)
+$ curl -s -H "HackerOne: thirion" -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36" https://stripchat.com/robots.txt | head -20
+-> Disallow de /user/, /confirm-email/, /messages/, 3 rutas de borrado de cuenta y */filter/*; 9 sitemaps
+$ curl -s -H "HackerOne: thirion" -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36" https://stripchat.com/.well-known/security.txt
+-> Contact hackerone.com/stripchat/reports/new, Expires 2026-12-31, Acknowledgments, Preferred-Languages en, Policy
+-> repetidas con la cabecera que exige el programa: mismo contenido que el 10-29 20:04, incidencia corregida
+siguiente: cerrar la Parte 1
 ```
