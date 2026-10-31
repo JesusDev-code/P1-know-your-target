@@ -1,0 +1,14 @@
+# scope.txt · programa: Stripchat (HackerOne) · consultado: 2026-10-31
+*.stripchat.com
+stripchat.com
+go.stripchat.com
+my.club
+# fuera de alcance (no se toca):
+!mta*.stripchat.com
+!pxl.stripchat.com
+!support.stripchat.com
+!wiki.stripchat.com
+!ext.stripchat.com
+!extensions.stripchat.com
+!websocket-apps.sc-apps.com
+# también fuera, por ruta: stripchat.com/page* y stripchat.com/wiki
